@@ -17,8 +17,12 @@ table {
 
   width: auto;
   border: 1px solid rgba(240, 190, 98, 0.884);
+  border-style: dashed;
 }
 
+h3 {
+  text-decoration: underline;
+}
 
 
 .image {
@@ -34,4 +38,12 @@ height: 55px;
 width: 55px;
 margin-right: 120px;
 margin-top: 50px;
+}
+
+
+.links a {
+  display: flex;
+  align-content: space-evenly;
+  color: rgba(240, 190, 98, 0.884);
+  font-family: fantasy;
 }
