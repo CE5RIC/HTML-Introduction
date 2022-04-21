@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  display: block;
+  background-color: rgb(18, 120, 189);
+  color: rgba(240, 190, 98, 0.884);
+  font-family: fantasy;
+}
+
+
+div {
+  max-width: 500px;
+  margin: auto;
+}
+
+
+table {
+
+  width: auto;
+  border: 1px solid rgba(240, 190, 98, 0.884);
+}
+
+
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.lightning {
+
+display: flex;
+height: 55px;
+width: 55px;
+margin-right: 120px;
+margin-top: 50px;
+}
